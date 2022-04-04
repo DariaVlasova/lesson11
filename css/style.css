@@ -1,0 +1,134 @@
+
+@import "null.css";
+.wrapper{
+min-height:100%;
+overflow:hidden;
+}
+body {
+  font-family: "Roboto";
+  margin: 0; 
+  width: 100vw;  
+  height: 100%;
+}
+.header__container {
+    position:fixed;
+    top: -550px;
+    left:0;   
+}
+
+.header__img {
+    display: block;
+    width: 100vw;  
+    max-height: 750px;
+    object-fit: cover;
+}
+.why-we-are {
+
+
+}
+.why-we-are__container {
+    margin: 0 auto;
+    max-width: 1020px;
+    max-height: 700px; 
+    background-color:rgba(80, 85, 159, 1);
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    margin-top: 170px;
+}
+
+
+.why-we-are__content {
+    display: block;
+    max-width: 846px;
+    margin: 0 auto;
+}
+.content{
+    position: relative;
+}
+.why-we-are__content::before{
+    content: "";
+    display: inline-block;
+    background: url("../img/5.svg") 0 0 no-repeat;
+    width: 201px;
+    height: 317px;
+}
+.content__container{
+max-width: 846px;
+margin: 0 auto;
+position: relative;
+padding: 100px 0 33px 0;
+}
+
+.content__subtitle {
+    color: #F5F5F5;
+    text-transform:uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 200%;
+  
+    display: inline-block;
+    letter-spacing: 2.5px;
+}
+.content__subtitle::before {
+    content:"";
+    width: 17px;
+    height: 16px;
+    display: inline-block;
+    background: url("../img/2.svg") 0 0 / 20px;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-right: 16px;
+}
+.content__title::before{
+content: " ";
+display: block;
+margin: -245px 0px -45px 800px ;
+background: url("../img/5.png") 0 0;
+width: 201px;
+height: 317px;
+background-repeat: no-repeat;
+background-position: top;
+z-index: 10;
+position: relative;
+}
+.content__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 117%; 
+    color: #F5F5F5;
+  padding-bottom: 36px;
+ 
+    max-width: 583px;
+}
+.content__text {
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.15px;
+color: #F5F5F5;
+padding: 0 0 10px 0;
+}
+
+.content__bolb {
+  
+   position: relative; 
+ margin: -115px 0px 0px -100px;
+
+		}
+.content__bolb_img{
+    position: relative;  
+}
+.content__dog {
+    z-index: 50; 
+    position: relative;
+   margin: -440px 0 0 0;
+}
+.content__dog_img {
+  
+ margin: 0 auto;
+       border-radius: 25px;
+}
+ 
+
+
